@@ -1,0 +1,22 @@
+using device: cuda
+[DEBUG] Subsetted to 256 train / 64 eval samples
+256 64
+
+===== MLM COLLATOR CONFIG =====
+whole_word_mask     : True
+mlm_probability     : 0.15
+mask_replace_prob   : 1.0
+random_replace_prob : 0.0
+===============================
+
+GPUs: 1
+Per-GPU batch size: 32
+Gradient accumulation: 8
+Effective batch size: 256
+Updates/epoch: 1
+Total optimizer steps: 30
+Warmup steps: 2
+{'train_runtime': '0.0688', 'train_samples_per_second': '7438', 'train_steps_per_second': '29.05', 'train_loss': '0', 'epoch': '2'}
+TrainOutput(global_step=2, training_loss=0.0, metrics={'train_runtime': 0.0688, 'train_samples_per_second': 7437.662, 'train_steps_per_second': 29.053, 'total_flos': 134761757540352.0, 'train_loss': 0.0, 'epoch': 2.0})
+{'eval_loss': 1.594861388206482, 'eval_runtime': 6.7826, 'eval_samples_per_second': 37.744, 'eval_steps_per_second': 2.359, 'epoch': 2.0}
+{'eval_loss': 1.4983627796173096, 'eval_runtime': 0.5197, 'eval_samples_per_second': 123.159, 'eval_steps_per_second': 7.697, 'epoch': 2.0}

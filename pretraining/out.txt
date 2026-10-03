@@ -1,0 +1,5 @@
+using device: cuda
+502401 89546
+{'eval_loss': 1.113932490348816, 'eval_runtime': 731.3682, 'eval_samples_per_second': 122.436, 'eval_steps_per_second': 7.653, 'epoch': 0.0}
+{'eval_loss': 1.1131088733673096, 'eval_runtime': 730.3821, 'eval_samples_per_second': 122.602, 'eval_steps_per_second': 7.663, 'epoch': 0.0}
+{'eval_loss': 1.1125378608703613, 'eval_runtime': 733.2214, 'eval_samples_per_second': 122.127, 'eval_steps_per_second': 7.633, 'epoch': 0.0}

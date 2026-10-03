@@ -1,0 +1,11 @@
+===============================
+Job ID: 87224.pragya
+Node: amilan013.head.cm.pragya.iitd.ac.in
+CUDA_VISIBLE_DEVICES: GPU-15dbfcd9-c0e5-a881-f7b4-b00df05cbd75,GPU-0c34be97-45bc-239e-9892-3a57ab1a24a3,GPU-4ddc7d7d-25ed-ec84-8d57-827e85ccb295,GPU-17b590ca-28b8-7ed7-8e5e-93943e301c9c,GPU-2e84b0bc-0716-e942-13df-f6cd27cf7465,GPU-d6447812-9d0e-cd5b-d465-f7b76b9ce81c,GPU-754ca90b-e32a-9daa-b2d9-05426fe97a1f,GPU-b344f6fa-caaf-b84d-8490-e14f86543ddf
+GPU count: 8
+GPU: NVIDIA A100-SXM4-80GB
+===============================
+GPU monitoring PID: 187335
+Starting finetuning on 8 GPUs (DDP via torchrun)
+GPU log saved to /home/scai/msr/aiy257591/flash/Projects/MatSci/MatSciBERT/pretraining/matscibert_finetune_main_2_gpu_usage.log
+Finetuning finished with exit code 0
