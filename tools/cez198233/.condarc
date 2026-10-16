@@ -1,0 +1,4 @@
+
+proxy_servers :
+ http  : http://10.10.78.61:3128
+ https : https://10.10.78.61:3128
