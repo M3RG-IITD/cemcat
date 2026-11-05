@@ -1,0 +1,9 @@
+model,model_id,precision,recall,f1,support_positive,n,n_unparsed,tp,fp,fn
+qwen25-0.5b,Qwen/Qwen2.5-0.5B-Instruct,0.8000,0.9565,0.8713,46,60,0,44,11,2
+gemma3-270m,google/gemma-3-270m-it,0.6154,0.1739,0.2712,46,60,0,8,5,38
+ministral-3b,mistralai/Ministral-3-3B-Instruct-2512,0.7759,0.9783,0.8654,46,60,0,45,13,1
+qwen25-7b,Qwen/Qwen2.5-7B-Instruct,0.8723,0.8913,0.8817,46,60,0,41,6,5
+gemma3-4b,google/gemma-3-4b-it,0.7667,1.0000,0.8679,46,60,0,46,14,0
+ministral-8b,mistralai/Ministral-8B-Instruct-2410,0.8070,1.0000,0.8932,46,60,0,46,11,0
+llamat-2-chat/yesno,m3rg-iitd/llamat-2-chat,0.7857,0.2391,0.3667,46,60,24,11,3,35
+llamat-3-chat/yesno,m3rg-iitd/llamat-3-chat,0.0000,0.0000,0.0000,46,60,5,0,0,46
